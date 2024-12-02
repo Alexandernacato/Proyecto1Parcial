@@ -49,3 +49,8 @@
     color: white;
     animation: animate__pulse;
 }
+
+a{
+    color: inherit; /* Color original del texto */
+  text-decoration: none;
+}
