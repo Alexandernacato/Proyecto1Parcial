@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+.encabezado{
+    background-color: blue;
+    color:white;
+    height: 100px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+nav{
+    background-color: rgb(114, 156, 255);
+    width: 100vw;
+    color:white;
+    display: flex;
+    align-items: center;
+    height: 39px;
+    padding-left: 90px;
+}
+body{
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-image: url(../Imagenes/pngtree-vibrant-watercolor-backg.jpg);
+    background-size: cover;
+}
+h1{
+    margin-bottom: 25px;
+    color:white;
+    margin-left: 100px;
+}
+.Encabezado{
+    margin-top: 0;
+}
+
+section{
+    display: flex;
+}
+.ojo{
+margin-left: 20px;
+color: black;
+}
+.derecho{
+    color: aliceblue;
+    width: 20vw;
+    text-align: center;
+}
+
+.PrimerArticulo{
+    margin-bottom: 20px;
+}
+.izquierdo{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: 95px;
+    
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 5px;
+    
+}
+
+h2{
+    margin-bottom: 5px;
+}
+article{
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 15px;
+    min-width: 420px;
+}
+
+.descripcion{
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+p{
+    flex: 2 0 400px
+}
+
+
+.articulo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numerador{
+    text-align: center;
+    position: absolute;
+    left: 55px;
+    width: 50px;
+    color: white;
+    background-color: blue;
+    box-shadow: black 3px 3px;
+}
+.derecho{
+    color: black;
+    text-align: left;
+}
