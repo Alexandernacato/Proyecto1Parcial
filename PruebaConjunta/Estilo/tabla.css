@@ -1,0 +1,47 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+    border: 1px solid black;
+    margin-top: 2em;
+    max-width: 70%;
+    min-width: 60%;
+    text-align: center;
+}
+
+body{
+    background-image: url(../Imagen/Fondo.jpg);
+    background-position: right;
+    background-repeat:repeat-y;
+}
+
+th{
+    background-color:#B0BF39;
+    border: 1px solid black;
+}
+section{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+th,tr,td{
+    border: 1px solid black;
+}
+
+td{
+    background-color: #EDF2C2;
+}
+
+caption{
+    font-size: 1.5em;
+    color: #4d8c38;
+    font-weight: 500;
+}
+h2{
+    color: #4d8c38;
+    font-size: 2.5em;
+    margin-left: 0.5em;
+}

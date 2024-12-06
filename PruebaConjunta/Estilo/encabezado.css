@@ -12,6 +12,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-items: center;
     position: sticky;
+ 
 }
 
 .header-logo{
@@ -40,6 +41,8 @@
 
 .header-text{
     transition: 0.15s;
+    text-decoration: none;
+    color: #EDF2C2;
 }
 .header-text:hover{
     font-size: 1.25em;
