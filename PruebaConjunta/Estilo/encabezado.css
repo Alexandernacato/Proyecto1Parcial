@@ -8,14 +8,19 @@
     background-color:#4d8c38 ;
     color: #EDF2C2;
     font-size: 1.05em;
-    font-weight: 100;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 20px;
+    top: 0;
+
+    font-family:'Lucia Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-items: center;
     position: sticky;
  
 }
 
 .header-logo{
+    padding: 0px;
+    margin: 0;
+    gap: 0;
     height: 50px;
 
     transition: 0.25s;
