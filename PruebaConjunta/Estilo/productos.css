@@ -1,6 +1,5 @@
 
 
-/* Estilo para las categorías (capilares, jabones, cremas) */
 .Productos > div {
     margin: 20px 0;
     width: 100%;
@@ -9,7 +8,7 @@
     align-items: center;
 }
 
-/* Estilo para las listas de productos */
+
 .lista-productos {
     display: flex;
     flex-wrap: wrap;
