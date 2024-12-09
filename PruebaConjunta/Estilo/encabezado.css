@@ -30,12 +30,14 @@ body{
     align-items: center;
 }
 
-.header-login{
+.header-login a{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     padding-right: 1em;
+    text-decoration: none;
+    color: white;
 }
 .header-login label{
     font-size: 0.7em;
