@@ -14,7 +14,9 @@
     position: sticky;
  
 }
-
+body{
+    background-color: white;
+}
 .header-logo{
     height: 50px;
 
@@ -51,4 +53,17 @@
 .header-login:hover{
     color: white;
     animation: animate__pulse;
+}
+
+.Modo-Oscuro{
+    background-color: #4d8c38;
+    border-radius: 5px;
+    padding: 0.25em;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+:root:has(.Modo-Oscuro-Boton:checked){
+    filter: invert(100%);
 }

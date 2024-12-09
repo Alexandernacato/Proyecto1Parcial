@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+}
+#Encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:#4d8c38 ;
+    color: #EDF2C2;
+    font-size: 1.05em;
+    font-weight: 100;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    position: sticky
+}
+
+.header-logo{
+    height: 50px;
+
+    transition: 0.25s;
+}
+
+.header-nav{
+    display: flex;
+    justify-content:baseline;
+    gap: 50px;
+    align-items: center;
+}
+
+.header-login{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-right: 1em;
+    color: inherit; 
+  text-decoration: none;
+}
+.header-login label{
+    font-size: 0.7em;
+}
+
+.header-text{
+    transition: 0.15s;
+}
+.header-text:hover{
+    font-size: 1.25em;
+    color: white;
+}
+.header-login:hover{
+    color: white;
+    animation: animate__pulse;
+    
+}
+
+
+/* Estilo para las categorías (capilares, jabones, cremas) */
+.Productos > div {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para las listas de productos */
+.lista-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    margin-right: 150px;
+}
+
+.producto,
+.Jabon,
+.crema {
+    background-color: #EDF2C2; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.producto p,
+.Jabon p,
+.crema p{
+    text-align: left;
+}
+.producto-img,
+.jabon-img,
+.cremaSangre-img,
+.CremaNut-img,
+.CremaManos-img,
+.CremaAnt-img {
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.producto-img {
+    width: 100px;
+}
+#ShampooJengibre{
+    width: 80px;
+}
+#TratamientoCapilar{
+    width: 80px;
+}
+.jabon-img {
+    width: 300px;
+}
+.cremaSangre-img,
+.CremaNut-img,
+.CremaAnt-img {
+    width: 250px;
+}
+.CremaManos-img{
+    width: 130px;
+    height: 230px;
+}
+.producto h3,
+.Jabon h3,
+.crema h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight:bold;
+    color: black;
+}
+
+.capilares, .Jabones, .cremas {
+    text-align: center;
+}
+
+.capilares h2, .Jabones h2, .cremas h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: fantasy;;
+}
+
+
+.contenedor {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 20px;
+}
+
+.Categorias { 
+    display: flex;
+    position: fixed;
+    right: 20px;
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 10px;
+    background-color: #4D8C3B; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: black;
+    font-family:fantasy;
+
+}
+
+.Categorias h2{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family:fantasy;
+    
+}
+
+.categoria {
+    background-color: #b0bf39;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family:fantasy;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 200px; 
+    
+}
+
+.categoria:hover {
+    background-color: #D8E2A4;
+}
