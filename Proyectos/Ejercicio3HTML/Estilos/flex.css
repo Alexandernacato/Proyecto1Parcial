@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100%;
+    background-color: rgb(167,182,173);
+
+}
+.container{
+    display: flex;
+    border: 1px solid blue;
+    height: 500px;
+    width: 40%;
+  
+}
+.container div{
+    height: 50px;
+}
+.item-1{
+    flex: 0 0 200px; /*Tiene tres atributos [flex grow] controla como crece un elemnento segun su espacio disponible
+     [flex shrink] controla cono se encoje un elemnto cuando falta un espacio 
+     [flex basis] define el tamaño inicial antes de que se adapte    
+     SI PPONEMOS valor 0 0 200px         
+    */
+    background-color: red;
+
+}
+.item-2{
+    flex: 2 2 200px; 
+    background-color: greenyellow;
+}
+.item-3{
+    flex: 1 1 100px;
+    background-color: chocolate;
+
+}

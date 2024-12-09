@@ -1,0 +1,15 @@
+#noticias{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid seagreen;
+    /* Implementando columnas al articulo*/
+    column-count: 4;/* numero de columnas*/
+    column-gap: 20px;/* Espaciado entre columnas*/
+    column-rule-style:dotted ;/* Estilos en columnas en las lines especificamente*/
+    column-rule-color: slateblue;/* color al estilo*/
+    column-rule-width: 10px;/*ancho del estilo*/
+    column-rule: 1px solid purple;/* aplica las anteriores 3 reglas aplicadas en una sola linea*/
+        
+
+
+}
