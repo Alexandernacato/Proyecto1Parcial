@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100%;
+}
+span{
+    width: 30px;
+    height: 30px;
+    border: 1px solid brown;
+    display: inline-block;
+
+}
+.section1{
+    border: 1px solid red;
+    height: 2000px;
+    position: relative;
+    top: 100px;
+}
+.article1{
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+.article2{
+    border: 1px solid greenyellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.article3{
+    border: 1px solid salmon;
+    top: 0;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.article4{
+    border: 1px solid turquoise;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+}
+.container{
+    transform-style: preserve-3d;
+    transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+    border: 3px solid hotpink;
+}
