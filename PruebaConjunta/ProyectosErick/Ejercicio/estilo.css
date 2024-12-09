@@ -1,0 +1,66 @@
+* {
+	background: lightblue;
+}
+
+.cabeza {
+	display: block;
+	background: skyblue;
+	height: 125px;
+
+
+}
+.cabeza div {
+	display: inline-block;
+}
+.cabeza_logo {
+	height: 100px;
+	width: 100px;
+overflow: hidden;
+	object-fit: contain;
+	margin-top: 10px;
+	border-radius: 50px;
+	position: absolute;
+	margin-left: 10px;
+
+}
+.cabeza_logo_imagen {
+	height: 100px;
+	width: 100px;
+}
+
+.cabeza_nombre {
+	background: skyblue;
+	position: absolute;
+	right: 125px;
+	margin-top: 25px;
+
+}
+.cabeza_nombre h1 {
+	background: skyblue;
+	font-family: 'Press Start 2P', cursive;
+
+}
+
+.formulario {
+	position: relative;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.formulario h2{
+		font-family: 'Press Start 2P', cursive;
+font-size: 15px;
+
+}
+.formulario a {
+	font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+.formulario_boton_d {
+	cursor: pointer;
+}
+.Titulo {
+	font-family: 'Press Start 2P', cursive;
+	color: darkblue;
+	text-align: center;
+}

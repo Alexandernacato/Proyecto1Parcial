@@ -1,0 +1,168 @@
+body{
+    font-size: 1em;
+    margin: 0;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    background-color: black;
+}
+.descripcion{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Presentacion{
+
+    background-image: url(../Imagen/high-resolution-green-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+h4{
+    color:#70AE52;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+p{
+  margin-bottom: 0px;
+
+}
+.lugar{
+    color:#70AE52;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0px;
+}
+
+.Portafolio{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    background-color: #036C4E;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+img{
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.imagen img{
+    width: 200px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 50px 0px 20px 0px rgba(0,0,0,0.5);
+
+}
+.Portafolio_Nicolay{
+    background-color:#3b6f20 ;
+    opacity: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    border-radius: 10px;
+    padding: 1.5em;
+    flex: 0 0 55%;
+}
+
+strong{
+    color: white;
+    animation-name: cambiarcolores;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes cambiarcolores{
+    0%{
+        color: white;
+    }
+    20%{
+        color:#70AE52;
+        transform: scale(0.1);
+    }
+    40%{
+       color:#3b6f20;
+        transform: scale(1);
+    }
+    80%{
+        color:#085436;
+        transform: scale(1);
+    }
+    100%{
+        color: white;
+
+    }
+}
+
+.descripcion{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.RedesSociales, i {
+    text-align:center;
+    color: white;
+    font-size: 1.10em;
+    margin-left: 20px;
+    margin-bottom: 0.3em;
+    margin-top: 0px;
+}
+
+.nombre{
+    font-size: 3em;
+    flex: 0 0 550px;
+}
+.textoPresentacion{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: block;
+}
+
+.Proyectos{
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 1em;
+padding-left: 10%;
+padding-right: 10%;
+    margin: auto;
+}
+
+.Proyectos div{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #70AE52;
+    margin: 5px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.Proyectos img {
+    margin-top: 1em;
+    width: 300px;
+}
+
+.Protectos_Nicolay{
+    background-color: #085436  ;
+}

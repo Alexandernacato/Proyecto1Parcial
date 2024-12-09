@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+#Encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:#4d8c38 ;
+    color: #EDF2C2;
+    font-size: 1.05em;
+    font-weight: 100;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    position: sticky;
+ 
+}
+body{
+    background-color: white;
+}
+.header-logo{
+    height: 50px;
+
+    transition: 0.25s;
+}
+
+.header-nav{
+    display: flex;
+    justify-content:baseline;
+    gap: 50px;
+    align-items: center;
+}
+
+.header-login a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-right: 1em;
+    text-decoration: none;
+    color: white;
+}
+.header-login label{
+    font-size: 0.7em;
+}
+
+.header-text{
+    transition: 0.15s;
+    text-decoration: none;
+    color: #EDF2C2;
+}
+.header-text:hover{
+    font-size: 1.25em;
+    color: white;
+}
+.header-login:hover{
+    color: white;
+    animation: animate__pulse;
+}
+
+.Modo-Oscuro{
+    background-color: #4d8c38;
+    border-radius: 5px;
+    padding: 0.25em;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+:root:has(.Modo-Oscuro-Boton:checked){
+    filter: invert(100%);
+}
